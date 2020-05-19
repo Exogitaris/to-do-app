@@ -66,12 +66,12 @@
                         priority: this.setPriority,
                         class: this.setClass,
                         alert: this.alert,
-                        p: 'Priority',
+                        p: 'Priority' + '\xa0',
                         completed: '',
                         fixPriority: this.setPriority,
                         fixClass: this.setClass,
                         fixAlert: this.alert,
-                        fixP: 'Priority'});
+                        fixP: 'Priority' + '\xa0'});
                     this.setTask = '';
                     this.somethingAdded = true;
                 }
