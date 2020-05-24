@@ -40,7 +40,7 @@
                     fixPriority: this.trash[index].fixPriority,
                     fixClass: this.trash[index].fixClass,
                     fixAlert: this.trash[index].fixAlert,
-                    fixP: this.trash[index].fixPriority})
+                    fixP: this.trash[index].fixP});
                 this.trash.splice(index, 1);
             }
         }

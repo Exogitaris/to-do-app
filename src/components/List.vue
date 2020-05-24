@@ -35,7 +35,7 @@
                     fixPriority: this.toDo[index].fixPriority,
                     fixClass: this.toDo[index].fixClass,
                     fixAlert: this.toDo[index].fixAlert,
-                    fixP: this.toDo[index].fixPriority})
+                    fixP: this.toDo[index].fixP});
                 this.toDo.splice(index, 1);
             },
             completeTask(index) {
